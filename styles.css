@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#quote {
+    font-size: 24;
+    margin-bottom: 10px;
+}
+
+#author {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newQuoteBtn {
+    background-color: blue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#newQuoteBtn:hover {
+    background-color: aqua;
+}
