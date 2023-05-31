@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>InspireMe App</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <h1>WELCOME TO INSPIREME, HOPE YOU ARE NOT FEELING BURNT OUT</h1>
+        <h2>Inspiration at your fingertips</h2>
+        <h3>
+            quotes = [
+    {"quote": "The only way to do great work is to love what you do.", "author": "Steve Jobs"}/n,
+    {"quote": "Innovation distinguishes between a leader and a follower.", "author": "Steve Jobs"}/n,
+    {"quote": "Life is 10% what happens to us an
+        </h3>
+        <div class="container">
+            <div id="quote"></div>
+            <div id="author"></div>
+            <button id="newQuoteBtn">New Quote</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
