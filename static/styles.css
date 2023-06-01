@@ -1,30 +1,47 @@
 h1 {
     text-align: center;
     color: #000;
-    font-size: large;
+    font-size: 40;
     font-style: italic;
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-style: normal;
     font-size: medium;
     color: blueviolet;
 }
 
+fieldset {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border: 10px silver;
+    position: bottom;
+}
 .container {
     text-align: center;
     padding: 20px;
 }
 
-h3 {
+p {
     font-size: 24;
-    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border-color: aqua;
+    text-decoration: wavy;
 }
 
-author {
+#author {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+#randomquote {
+    font-size: 40;
+    background-color: rgb(224, 217, 230);
+    font-style: italic;
 }
 
 #newQuoteBtn {
