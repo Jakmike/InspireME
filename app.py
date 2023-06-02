@@ -90,6 +90,10 @@ def search():
 
         return render_template('error.html', message=message)
 
+# Route to landing page
+@app.route('/Home', methods=['GET'])
+def landing_page():
+    return render_template('landing.html')
 
 # Run the Flask application
 if __name__ == '__main__':
