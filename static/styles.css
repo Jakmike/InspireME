@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     color: #000;
-    font-size: 40;
+    font-size: 40px; /* Add the unit 'px' */
     font-style: italic;
 }
 
@@ -16,16 +16,17 @@ fieldset {
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-    border: 10px silver;
-    position: bottom;
+    border: 10px solid silver; /* Add the unit 'px' and specify the border style */
+    position: bottom; /* I'm assuming you meant 'position: absolute' */
 }
+
 .container {
     text-align: center;
     padding: 20px;
 }
 
 p {
-    font-size: 24;
+    font-size: 24px; /* Add the unit 'px' */
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
@@ -39,7 +40,7 @@ p {
 }
 
 #randomquote {
-    font-size: 40;
+    font-size: 20px; /* Add the unit 'px' */
     background-color: rgb(224, 217, 230);
     font-style: italic;
 }
@@ -56,4 +57,24 @@ p {
 
 #newQuoteBtn:hover {
     background-color: aqua;
+}
+
+.quote-container {
+    /* Add styling for the quote container */
+    /* For example: */
+    margin-bottom: 20px;
+}
+
+.go-back {
+    /* Add styling for the "Go Back" link */
+    /* For example: */
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.fa.fa-arrow-left {
+    /* Add styling for the arrow icon */
+    /* For example: */
+    margin-right: 5px;
 }

@@ -39,7 +39,7 @@ quotes = (
 
 
 # Route to generate a random quote
-@app.route("/random-quote", methods=['GET', 'POST'])
+@app.route("/random-quote", methods=['GET'])
 def random_quote():
     quote = random.choice(quotes)
     return jsonify(quote)
@@ -54,13 +54,14 @@ def search():
     if search_word.lower() == 'quote of the day':
         # Make a request to the They Said So Quotes API for the quote of the day
         url = "https://quotes.rest/qod"
-        headers = {"Authorization": "bQfClzm6lbrqUKEDB6GZkwsJrLr2r9k1sewSWWr2"}
+        headers = {"X-TheySaidSo-Api-Secret": "bQfClzm6lbrqUKEDB6GZkwsJrLr2r9k1sewSWWr2"}
         response = requests.get(url, headers=headers)
 
         if response.status_code == 200:
             data = response.json()
-            quote = data.get('contents', {}).get('quote')
-            author = data.get('contents', {}).get('author')
+            quote_data = data.get('contents', {}).get('quotes', [])[0]
+            quote = quote_data.get('quote')
+            author = quote_data.get('author')
 
             return render_template('result.html', quote=quote, author=author)
         else:
@@ -89,6 +90,8 @@ def search():
             message = 'Failed to fetch quotes. Please try again.'
 
         return render_template('error.html', message=message)
+
+
 
 # Route to landing page
 @app.route('/Home', methods=['GET'])
