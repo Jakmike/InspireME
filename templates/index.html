@@ -3,7 +3,6 @@
 <head>
     <title>InspireMe App</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
-    <!--link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pure-min.css') }}"-->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
@@ -36,13 +35,11 @@
         </ul>
     </div>
 
-    <!-- Update the form with the appropriate class name for the input and button -->
     <form class="pure-form" action="{{ url_for('search') }}" method="POST">
         <input type="text" class="pure-input-rounded" name="search_word" placeholder="Enter a word">
         <button type="submit" class="pure-button">Search</button>
     </form>
 
-    
 
     <p>
         The only way to do great work is to love what you do.<br>
@@ -53,8 +50,7 @@
         The only person you are destined to become is the person you decide to be.<br>
         The best way to predict the future is to create it.<br>
         The only way to fail is to give up.<br>
-
-        </p>
+    </p>
 
     <form class="pure-form">
         <fieldset>
