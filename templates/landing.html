@@ -6,46 +6,63 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to InspireMe</h1>
+        <div class="cover-image"></div>
+        <h1>Welcome to InspireMe </h1>
         <p>Inspiration at your fingertips</p>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="https://www.example.com" class="cta-button">Visit the App</a>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li>
-                <a href="#">Contact</a>
-                <ul>
-                    <li><a href="mailto:enemuochioma77@gmail.com">Email</a></li>
-                    <li><a href="https://github.com/Jakmike/MVP">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/chiomaenemuo/">LinkedIn</a></li>
-		    <li><a href="https://twitter.com/JakMike3">Twitter</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    
-    <section class="search">
-        <h2>Find Your Inspiration</h2>
-        <form action="/search" method="POST">
-            <input type="text" name="search_word" placeholder="Enter a word">
-            <button type="submit">Search</button>
-        </form>
-    </section>
-    
-    <section class="quote-of-the-day">
-        <h2>Quote of the Day</h2>
-        <div id="quote-container">
-            <p id="quote-text">Loading...</p>
-            <p id="quote-author"></p>
-        </div>
-        <button id="new-quote-button">New Quote</button>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 InspireMe. All rights reserved.</p>
-    </footer>
 
-    <script src="script.js"></script>
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1.png" alt="Feature 1">
+            <h3>Feature 1 Name</h3>
+            <p>Description of Feature 1.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.png" alt="Feature 2">
+            <h3>Feature 2 Name</h3>
+            <p>Description of Feature 2.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.png" alt="Feature 3">
+            <h3>Feature 3 Name</h3>
+            <p>Description of Feature 3.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This project was inspired by my passion for creating innovative solutions. It is a Portfolio Project for Holberton School, showcasing my skills and experiences in web development.</p>
+        <div class="team-members">
+            <div class="member">
+                <h3>Chioma Enemuo</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/chiomaenemuo">LinkedIn</a></li>
+                    <li><a href="https://github.com/Chynet35">GitHub</a></li>
+                    <li><a href="https://twitter.com/Amarach53971318">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="member">
+                <h3>Asomugha John</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/asomugha-john-kenenna">LinkedIn</a></li>
+                    <li><a href="https://github.com/Jakmike">GitHub</a></li>
+                    <li><a href="https://twitter.com/Jakmike3">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="https://github.com/Jakmike/MVP" class="cta-button">View Project Repository</a>
+    </section>
+
+    <footer>
+        <p>© 2023 InspireMe. All rights reserved.</p>
+    </footer>
 </body>
 </html>

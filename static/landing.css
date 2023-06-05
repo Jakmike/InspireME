@@ -1,77 +1,145 @@
+/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header Section */
+
 header {
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     padding: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.cover-image {
+    background-image: url("cover-image.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
-nav ul li {
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
     display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Feature Section */
+
+#features {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* About Section */
+
+#about {
+    padding: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.member {
     margin-right: 20px;
 }
 
-nav ul li a {
+.member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.member ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member ul li {
+    margin-bottom: 5px;
+}
+
+.member ul li a {
     text-decoration: none;
     color: #333;
 }
 
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    padding: 10px;
+.member ul li a:hover {
+    color: #555;
 }
 
-nav ul li:hover ul {
-    display: block;
-}
-
-.search {
-    text-align: center;
-    padding: 50px;
-}
-
-.search form {
-    margin-top: 20px;
-}
-
-.search input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-}
-
-.search button {
-    padding: 10px 20px;
-    font-size: 16px;
-}
-
-.quote-of-the-day {
-    text-align: center;
-    padding: 50px;
-}
-
-#quote-container {
-    margin-bottom: 20px;
-}
-
-#new-quote-button {
-    padding: 10px 20px;
-    font-size: 16px;
-}
+/* Footer Section */
 
 footer {
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #333;
     padding: 20px;
+    color: #fff;
 }
