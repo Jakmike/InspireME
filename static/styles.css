@@ -1,3 +1,10 @@
+body {
+  background-image: url('https://media.cheggcdn.com/study/584/584c8945-bf97-4875-a4e3-c74129f685d1/image');
+  background-repeat: no-repeat;
+  background-size: cover, 100%;
+}
+
+
 h1 {
     text-align: center;
     color: #000;
@@ -7,9 +14,9 @@ h1 {
 
 h2 {
     text-align: center;
-    font-style: normal;
+    font-style: bold;
     font-size: medium;
-    color: blueviolet;
+    color: white;
 }
 
 fieldset {
@@ -40,9 +47,10 @@ p {
 }
 
 #randomquote {
+    background-color: skyblue;
     font-size: 20px; /* Add the unit 'px' */
-    background-color: rgb(224, 217, 230);
     font-style: italic;
+    border-radius: 0.2cm;
 }
 
 #newQuoteBtn {
