@@ -92,6 +92,7 @@ h2 {
 
 .feature p {
     font-size: 14px;
+    background-color: #333;
     color: #555;
 }
 
@@ -99,6 +100,7 @@ h2 {
 
 #about {
     padding: 20px;
+    background-color: #333;
 }
 
 .team-members {

@@ -76,7 +76,7 @@ p {
 .go-back {
     /* Add styling for the "Go Back" link */
     /* For example: */
-    color: blue;
+    color: rgb(16, 16, 17);
     text-decoration: none;
     margin-top: 10px;
 }
