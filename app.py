@@ -7,11 +7,6 @@ r = requests.get('https://www.python.org')
 
 app = Flask(__name__)
 
-# Route to render the index.html template
-@app.route('/')
-def rootpage():
-    return render_template("index.html")
-
 # Array of quotes
 quotes = (
     "The only way to do great work is to love what you do.",
@@ -37,9 +32,14 @@ quotes = (
     "I close my eyes in order to see."
 )
 
+# Route to render the index.html template
+@app.route('/')
+def rootpage():
+    return render_template("index.html")
+
 
 # Route to generate a random quote
-@app.route("/random-quote", methods=['GET'])
+@app.route("/random-quote", methods=['GET', 'POST'])
 def random_quote():
     quote = random.choice(quotes)
     return jsonify(quote)
@@ -48,8 +48,6 @@ def random_quote():
 @app.route('/search', methods=['POST'])
 def search():
     search_word = request.form.get('search_word')
-
-    response = None  # Initialize the response variable with a default value
 
     if search_word.lower() == 'quote of the day':
         # Make a request to the They Said So Quotes API for the quote of the day

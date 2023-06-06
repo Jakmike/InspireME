@@ -9,8 +9,13 @@ body {
 /* Header Section */
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-orientation: upright;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #a898e2;
     padding: 20px;
 }
 
@@ -23,7 +28,7 @@ header {
 
 h1 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 nav ul {
@@ -64,35 +69,36 @@ nav a:hover {
 
 /* Feature Section */
 
-#features {
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
 .feature {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-.feature img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 10px;
+.thumbnail {
+    background-color: #5a5a61;  
+    padding: 10px;
+    margin-right: 10px;
 }
 
-.feature h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
+.feature-image {
+    max-width: 150px;  
+    height: auto;
 }
+
+.feature-content {
+    background-color: #a995e0;  
+    padding: 10px;
+}
+
+.feature-content h3 {
+    margin-top: 0;
+}
+
 
 .feature p {
     font-size: 14px;
-    background-color: #333;
+    background-color: #977fee;
     color: #555;
 }
 
@@ -100,7 +106,7 @@ h2 {
 
 #about {
     padding: 20px;
-    background-color: #333;
+    background-color: #a898e2;
 }
 
 .team-members {
@@ -130,18 +136,18 @@ h2 {
 
 .member ul li a {
     text-decoration: none;
-    color: #333;
+    color: #e23535;
 }
 
 .member ul li a:hover {
-    color: #555;
+    color: #e90e0e;
 }
 
 /* Footer Section */
 
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #869ce4;
     padding: 20px;
     color: #fff;
 }
