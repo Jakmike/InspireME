@@ -1,4 +1,12 @@
-# Build your portfolio project (Week 2): MVP Complete RANDOM QUOTES GENERATOR
+# INSPIREME WEB APP: A RANDOM QUOTES GENERATOR
 
-## And now, we ship that MVP!(InspireMe Web)
-This week is still all about execution! Hopefully you are on track and have gotten many of the riskiest aspects of your projects completed. It’s time to integrate all the pieces of your project so that you have a functioning project. The deliverable for the upcoming week will be an MVP and a self-assessment of your project.
+## ABOUT 
+InspireMe is a passion project driven by the belief in the transformative power of inspiration.
+We understand that a single quote or a moment of motivation can have a profound impact on our lives.
+That's why we created the InspireMe app, a user-friendly platform that delivers carefully curated quotes,
+and powerful affirmations right to your fingertips.
+Our mission is to make inspiration accessible to everyone, anytime and anywhere.
+Start your day with a fresh quote, save your favorites, and share them with your loved ones.
+Let inspiration guide you on your journey towards personal growth and success.
+Join the InspireMe community and embrace the power of inspiration to create positive change in your life.
+It is a Portfolio Project for Holberton School, showcasing skills and experiences in web development.
