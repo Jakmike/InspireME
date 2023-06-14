@@ -53,7 +53,8 @@ Here are some related projects you might find interesting:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Screenshots
-![Screenshot 1](static/images/random_quote%201.png)
+![Screenshot 1](static/images/Screenshot%203app.png)
 
-![Screenshot 2](static/images/quote%20of%20the%20day.png)
+![Screenshot 2](static/images/Screenshot%202app.png)
 
+![Screenshot 2](static/images/Screenshot%205app.png)
