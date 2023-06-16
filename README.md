@@ -18,7 +18,7 @@ It is a Portfolio Project for Holberton School, showcasing skills and experience
 
 - Deployed Site: [Link to Deployed Site](https://project-production-106a.up.railway.app/)
 - Final Project Blog Articles: - [Link to Chioma Blog Article](https://www.linkedin.com/pulse/inspireme-empowering-personal-growth-through-python-chioma-enemuo)
-                               - [Link to John Blog Article](https:/)
+                               - [Link to John Blog Article](https://jakmike.hashnode.dev/title-creating-a-random-quote-generator-app-unleashing-inspiration-at-your-fingertips)
 - Authors' LinkedIn:- [Chioma LinkedIn Profile](https://www.linkedin.com/in/chiomaenemuo)
                      - [John LinkedIn Profile](https://www.linkedin.com/in/asomugha-john-kenenna-75315b185/)
 
